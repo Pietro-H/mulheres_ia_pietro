@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Grace Murray Hopper</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="accessibility-bar">
+            <div class="acc-controls-wrapper">
+                <button class="acc-btn" onclick="changeFontSize(-1)" aria-label="Diminuir fonte">A-</button>
+                <span class="font-scale-badge" id="font-scale-display">100%</span>
+                <button class="acc-btn" onclick="changeFontSize(1)" aria-label="Aumentar fonte">A+</button>
+                <button class="acc-btn" onclick="resetFontSize()" aria-label="Restaurar fonte">100%</button>
+                <button class="acc-btn" id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                    <span class="theme-text">Modo Escuro</span>
+                </button>
+            </div>
+        </div>
+
+        <header class="cabecalho">
+            <span class="header-tag">Almirante & Cientista</span>
+            <h1 id="titulo">Grace Murray Hopper</h1>
+            <p class="header-subtitle">Pioneira dos Compiladores e da Linguagem COBOL (1906 – 1992)</p>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ada.html">Ada</a></li>
+                <li><a href="grace.html" class="active">Grace</a></li>
+                <li><a href="margareth.html">Margareth</a></li>
+                <li><a href="dorothy.html">Dorothy</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="profile-hero-wrapper">
+                <div class="profile-media-container">
+                    <div class="img-frame">
+                        <img src="grace.jpeg" alt="Grace Murray Hopper em uniforme da Marinha" class="imgcentro">
+                    </div>
+                    <div class="profile-meta-badge">
+                        <span class="meta-name">Grace Murray Hopper</span>
+                        <span class="meta-lifespan">1906 – 1992</span>
+                    </div>
+                </div>
+
+                <article>
+                    <div class="quote-card">
+                        <p class="quote-text">"É mais fácil pedir perdão do que pedir permissão."</p>
+                        <p class="quote-author">— Grace Hopper</p>
+                    </div>
+
+                    <h2 class="section-title">Formação e Serviço Militar</h2>
+                    <p class="texto">Grace Murray Hopper (Nova Iorque, 1906 - 1992) foi Ph.D. em Matemática, analista de sistemas da Marinha dos Estados Unidos nas décadas de 1940 e 1950, alcançando a patente de contra-almirante.</p>
+
+                    <h2 class="section-title">Invenção do Compilador e COBOL</h2>
+                    <p class="texto">Foi ela quem criou a linguagem de programação Flow-Matic (hoje extinta) que serviu como base direta para a criação do COBOL (Common Business Oriented Language), devido à necessidade de criar uma linguagem orientada a negócios em inglês legível. Essa linguagem que até hoje sustenta sistemas bancários globais teve como protagonista essa brilhante cientista.</p>
+
+                    <h2 class="section-title">Mãe dos Compiladores</h2>
+                    <p class="texto">No começo dos anos 1950 ela desenvolveu o primeiro compilador operacional da história. Naquela época acreditava-se firmemente que computadores só podiam processar números e operações aritméticas. Como diretora de programação automática, ela provou o contrário e popularizou o uso de linguagens compiladas.</p>
+                </article>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p class="footer-credits"><b>Desenvolvido por:</b> <strong>Pietro Henrique Pereira</strong></p>
+                <p class="footer-contact">Contato: pietrohenriquepereiraxxx@gmail.com | (43) 6767-6767<br><i>Alto Porã - Pindamonhangaba</i></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

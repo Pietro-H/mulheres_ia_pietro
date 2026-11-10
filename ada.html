@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ada Augusta King - Ada Lovelace</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="accessibility-bar">
+            <div class="acc-controls-wrapper">
+                <button class="acc-btn" onclick="changeFontSize(-1)" aria-label="Diminuir fonte">A-</button>
+                <span class="font-scale-badge" id="font-scale-display">100%</span>
+                <button class="acc-btn" onclick="changeFontSize(1)" aria-label="Aumentar fonte">A+</button>
+                <button class="acc-btn" onclick="resetFontSize()" aria-label="Restaurar fonte">100%</button>
+                <button class="acc-btn" id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                    <span class="theme-text">Modo Escuro</span>
+                </button>
+            </div>
+        </div>
+
+        <header class="cabecalho">
+            <span class="header-tag">Matemática & Escritora</span>
+            <h1 id="titulo">Ada Augusta King</h1>
+            <p class="header-subtitle">Condessa de Lovelace (1815 – 1852) — A Mãe da Programação</p>
+        </header>
+
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ada.html" class="active">Ada</a></li>
+                <li><a href="grace.html">Grace</a></li>
+                <li><a href="margareth.html">Margareth</a></li>
+                <li><a href="dorothy.html">Dorothy</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="profile-hero-wrapper">
+                <div class="profile-media-container">
+                    <div class="img-frame">
+                        <img src="ada.jpeg" alt="Retrato histórico de Ada Lovelace" class="imgcentro">
+                    </div>
+                    <div class="profile-meta-badge">
+                        <span class="meta-name">Ada Augusta King</span>
+                        <span class="meta-lifespan">1815 – 1852</span>
+                    </div>
+                </div>
+
+                <article>
+                    <div class="quote-card">
+                        <p class="quote-text">"A Máquina Analítica tece padrões algébricos assim como o tear de Jacquard tece flores e folhas."</p>
+                        <p class="quote-author">— Ada Lovelace</p>
+                    </div>
+
+                    <h2 class="section-title">Biografia e Origens</h2>
+                    <p class="texto">Ada Augusta King, Condessa de Lovelace (nascida Byron), foi uma matemática e escritora inglesa. Filha do famoso poeta Lord Byron e de Anne Isabella Milbanke, recebeu desde muito jovem uma educação científica e matemática rigorosa, incentivada por sua mãe para afastá-la das tendências poéticas e instáveis do pai.</p>
+
+                    <h2 class="section-title">A Visão Pioneira dos Algoritmos</h2>
+                    <p class="texto">Ada foi a primeira pessoa a reconhecer que máquinas computacionais poderiam ter aplicações além de puros cálculos aritméticos. Durante seu trabalho e colaboração no projeto da Máquina Analítica de Charles Babbage, ela desenvolveu um conjunto extenso de notas com instruções detalhadas para computar os valores da função de números de Bernoulli.</p>
+
+                    <h2 class="section-title">O Primeiro Programa da História</h2>
+                    <p class="texto">Por esse trabalho visionário, ela é considerada a primeira programadora de computadores de toda a história. É notável lembrar que ela escreveu o programa em folhas de papel, demonstrando uma profunda intuição teórica em um tempo em que o próprio hardware físico da máquina nunca chegou a ser concluído durante sua vida.</p>
+                </article>
+            </div>
+
+            <section class="timeline-section">
+                <h2 class="section-title">Linha do Tempo</h2>
+                <div class="timeline-container">
+                    <div class="timeline-node">
+                        <span class="timeline-year">1815</span>
+                        <p class="timeline-text">Nascimento em Londres, Inglaterra.</p>
+                    </div>
+                    <div class="timeline-node">
+                        <span class="timeline-year">1833</span>
+                        <p class="timeline-text">Conhece o cientista Charles Babbage e inicia seus estudos sobre máquinas de calcular.</p>
+                    </div>
+                    <div class="timeline-node">
+                        <span class="timeline-year">1843</span>
+                        <p class="timeline-text">Publica o algoritmo para os Números de Bernoulli nas anotações da Máquina Analítica.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p class="footer-credits"><b>Desenvolvido por:</b> <strong>Pietro Henrique Pereira</strong></p>
+                <p class="footer-contact">Contato: pietrohenriquepereiraxxx@gmail.com | (43) 6767-6767<br><i>Alto Porã - Pindamonhangaba</i></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

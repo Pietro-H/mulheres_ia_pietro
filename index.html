@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pioneiras da Tecnologia - Início</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <!-- Barra de Acessibilidade -->
+        <div class="accessibility-bar">
+            <div class="acc-controls-wrapper">
+                <button class="acc-btn" onclick="changeFontSize(-1)" title="Diminuir tamanho da fonte" aria-label="Diminuir fonte">A-</button>
+                <span class="font-scale-badge" id="font-scale-display">100%</span>
+                <button class="acc-btn" onclick="changeFontSize(1)" title="Aumentar tamanho da fonte" aria-label="Aumentar fonte">A+</button>
+                <button class="acc-btn" onclick="resetFontSize()" title="Restaurar tamanho da fonte" aria-label="Restaurar fonte">100%</button>
+                <button class="acc-btn" id="theme-toggle-btn" onclick="toggleTheme()" title="Alternar tema visual" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                    <span class="theme-text">Modo Escuro</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Cabeçalho -->
+        <header class="cabecalho">
+            <span class="header-tag">Pioneiras da Computação</span>
+            <h1 id="titulo">Mulheres da Tecnologia</h1>
+            <p class="header-subtitle">Conheça as mentes brilhantes que criaram os fundamentos da programação moderna e revolucionaram a era digital.</p>
+        </header>
+
+        <!-- Menu Navegação -->
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html" class="active">Início</a></li>
+                <li><a href="ada.html">Ada</a></li>
+                <li><a href="grace.html">Grace</a></li>
+                <li><a href="margareth.html">Margareth</a></li>
+                <li><a href="dorothy.html">Dorothy</a></li>
+            </ul>
+        </nav>
+
+        <!-- Conteúdo Principal -->
+        <main class="main-content">
+            <div class="profile-hero-wrapper">
+                <div class="profile-media-container">
+                    <div class="img-frame">
+                        <img src="images.jpeg" alt="Painel das Pioneiras da Tecnologia" class="img">
+                    </div>
+                </div>
+
+                <article>
+                    <h2 class="section-title">O Impacto Feminino na Ciência</h2>
+                    <p class="texto">Ao longo da história da computação, mulheres desempenharam papéis vitais no desenvolvimento de linguagens de programação, arquitetura de sistemas espaciais e algoritmos fundamentais. Desde a criação do primeiro programa escrito em papel até a liderança dos cálculos para a chegada do ser humano à Lua, este portal celebra a contribuição incomparável destas quatro cientistas revolucionárias.</p>
+                </article>
+            </div>
+
+            <!-- Bento Grid de Navegação de Pioneiras -->
+            <section>
+                <h2 class="section-title">Navegue pelas Histórias</h2>
+                <div class="bento-grid">
+                    <a href="ada.html" class="bento-card">
+                        <div class="bento-icon">💻</div>
+                        <h3 class="bento-title">Ada Lovelace</h3>
+                        <p class="bento-desc">A primeira programadora de computadores de toda a história humana.</p>
+                    </a>
+                    <a href="grace.html" class="bento-card">
+                        <div class="bento-icon">⚙️</div>
+                        <h3 class="bento-title">Grace Hopper</h3>
+                        <p class="bento-desc">Criadora do primeiro compilador e fundadora da linguagem COBOL.</p>
+                    </a>
+                    <a href="margareth.html" class="bento-card">
+                        <div class="bento-icon">🚀</div>
+                        <h3 class="bento-title">Margaret Hamilton</h3>
+                        <p class="bento-desc">Diretora de software do Programa Apollo e fundadora da Engenharia de Software.</p>
+                    </a>
+                    <a href="dorothy.html" class="bento-card">
+                        <div class="bento-icon">📊</div>
+                        <h3 class="bento-title">Dorothy Vaughan</h3>
+                        <p class="bento-desc">Primeira supervisora negra da NASA e especialista pioneira em FORTRAN.</p>
+                    </a>
+                </div>
+            </section>
+        </main>
+
+        <!-- Rodapé -->
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p class="footer-credits">
+                    <b>Desenvolvido por:</b> <strong>Pietro Henrique Pereira</strong>
+                </p>
+                <p class="footer-contact">
+                    Contato: pietrohenriquepereiraxxx@gmail.com | (43) 6767-6767<br>
+                    <i>Alto Porã - Pindamonhangaba</i>
+                </p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

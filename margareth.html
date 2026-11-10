@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Margareth Hamilton</title>
+</head>
+
+<body>
+    <div class="site-wrapper">
+        <div class="accessibility-bar">
+            <div class="acc-controls-wrapper">
+                <button class="acc-btn" onclick="changeFontSize(-1)" aria-label="Diminuir fonte">A-</button>
+                <span class="font-scale-badge" id="font-scale-display">100%</span>
+                <button class="acc-btn" onclick="changeFontSize(1)" aria-label="Aumentar fonte">A+</button>
+                <button class="acc-btn" onclick="resetFontSize()" aria-label="Restaurar fonte">100%</button>
+                <button class="acc-btn" id="theme-toggle-btn" onclick="toggleTheme()" aria-label="Alternar tema">
+                    <span class="theme-icon">🌙</span>
+                    <span class="theme-text">Modo Escuro</span>
+                </button>
+            </div>
+        </div>
+
+        <header class="cabecalho">
+            <span class="header-tag">Engenheira de Software da Apollo</span>
+            <h1 id="titulo">Margaret Hamilton</h1>
+            <p class="header-subtitle">Diretora da Divisão de Software do MIT e Criadora da Engenharia de Software</p>
+        </header>
+
+        <nav class="menu" aria-label="Navegação principal">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="ada.html">Ada</a></li>
+                <li><a href="grace.html">Grace</a></li>
+                <li><a href="margareth.html" class="active">Margareth</a></li>
+                <li><a href="dorothy.html">Dorothy</a></li>
+            </ul>
+        </nav>
+
+        <main class="main-content">
+            <div class="profile-hero-wrapper">
+                <div class="profile-media-container">
+                    <div class="img-frame">
+                        <img src="margaret.jpeg" alt="Foto de Margaret Hamilton" class="imgcentro">
+                    </div>
+                    <div class="profile-meta-badge">
+                        <span class="meta-name">Margaret Hamilton</span>
+                        <span class="meta-lifespan">1936 – Presente</span>
+                    </div>
+                </div>
+
+                <article>
+                    <div class="quote-card">
+                        <p class="quote-text">"Não havia escolha a não ser ser pioneira; não havia manual sobre como fazer software espacial."</p>
+                        <p class="quote-author">— Margaret Hamilton</p>
+                    </div>
+
+                    <h2 class="section-title">Liderança no Projeto Apollo</h2>
+                    <p class="texto">Margaret Heafield Hamilton (nascida em 1936) é cientista da computação e engenheira de software. Foi diretora da Divisão de Engenharia de Software do Laboratório de Instrumentação do MIT, que desenvolveu o sistema de voo de bordo para o programa espacial Apollo da NASA.</p>
+
+                    <h2 class="section-title">O Termo "Engenharia de Software"</h2>
+                    <p class="texto">Hamilton foi pioneira ao estabelecer a Engenharia de Software como um campo legítimo da ciência da computação. O seu trabalho permitiu evitar que a aterrissagem da Apollo 11 fosse abortada nos minutos finais antes de tocar o solo lunar devido à sobrecarga de dados no computador de bordo.</p>
+
+                    <h2 class="section-title">Legado Científico</h2>
+                    <p class="texto">Com mais de 130 artigos e relatórios publicados, Margaret Hamilton é reconhecida internacionalmente pelo rigor técnico e pelos conceitos inovadores de arquitetura de software tolerante a falhas.</p>
+                </article>
+            </div>
+        </main>
+
+        <footer class="site-footer">
+            <div class="footer-content">
+                <p class="footer-credits"><b>Desenvolvido por:</b> <strong>Pietro Henrique Pereira</strong></p>
+                <p class="footer-contact">Contato: pietrohenriquepereiraxxx@gmail.com | (43) 6767-6767<br><i>Alto Porã - Pindamonhangaba</i></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
